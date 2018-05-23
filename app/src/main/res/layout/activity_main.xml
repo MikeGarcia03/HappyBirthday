@@ -6,9 +6,30 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/androidparty"
+        android:scaleType="centerCrop"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Happy Birthday Mike" />
+        android:padding="16dp"
+        android:textSize="26sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
+        android:text="Happy Birthday Mike!"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:padding="16dp"
+        android:textSize="26sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
+        android:text="From, Miguel Angel"/>
 
 </RelativeLayout>
